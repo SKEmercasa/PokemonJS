@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="loginForms">
+            <div class="logo LF">
+                <h1>Регистрация</h1>
+            </div>
+            <div class="forms LF">
+                <form class="formReg" action="/reg" method="POST">
+                    <label for="regEmailId">Ваш Email</label>
+                    <input type="email" name="regEmail" id="regEmailId">
+                    <label for="regNickId">Имя Пользователя</label>
+                    <input type="text" name="regNick" id="regNickId">
+                    <label for="regPassId">Пароль</label>
+                    <input type="password" name="regPass" id="regPassId">
+                    <label for="regCPassId">Подтвердите Пароль </label>
+                    <input type="password" name="regCPass" id="regCPassId">
+                    <button type="submit" id="regBtnId">ВХОД</button>
+                </form>
+            </div>
+            <div class="footer LF"></div>
+        </div>
+        <div class="bgLogin"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.loginForms {
+    width: 25%;
+    background-color: indianred;
+}
+
+.LF {
+    font-family: 'Comic Sans MS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+}
+
+.bgLogin {
+    width: 75%;
+    background: url('../img/bgLogin.jpg');
+    background-position-x: 60%;
+    background-position-y: 40%;
+}
+
+.formReg {
+    display: grid;
+    text-align: left;
+    width: 55%;
+}
+
+.formReg label {
+    margin: 10px 0px 10px 0px;
+}
+
+.formReg input {
+    font-family: 'Comic Sans MS';
+    height: 25px;
+}
+
+.formReg button {
+    font-family: 'Comic Sans MS';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 80%;
+    width: 30%;
+}
